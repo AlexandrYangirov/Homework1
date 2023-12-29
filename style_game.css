@@ -120,3 +120,7 @@ background-image: url(./img/game_amg.jpg);
     align-items: center;
     flex-direction: column-reverse;
 }
+.body{
+    margin: 0px;
+    padding: 0px;
+}
