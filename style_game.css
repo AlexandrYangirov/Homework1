@@ -1,14 +1,13 @@
-.top {
-       background-repeat: no-repeat;
+.top{
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 1024px;
     flex-shrink: 0;
     background-image: url(./img/Rectangle\ 1.jpg);
-    
- }
+    }
  
-.top_content{
+.top__content{
 padding-top: 217px;
 padding-left: 120px;
 width: 481px;   
@@ -17,7 +16,7 @@ top: 374.11px;
 left: 120.22px;
 
 }
-.title{
+.top__title{
 display: flex;
 width: 788.778px;
 height: 125.007px;
@@ -31,7 +30,7 @@ font-style: normal;
 font-weight: 700
 
             }
-.top_text{
+.top__text{
 width: 481px;
 color: #FFF;
 font-family: Montserrat;
@@ -41,7 +40,7 @@ font-weight: 300;
 line-height: 32px;
 }
             
-.span{
+.top__span{
 width: 481px;
 color: #FFF;
 font-family: Montserrat;
@@ -50,7 +49,7 @@ font-style: normal;
 font-weight: 700;
 line-height: 32px;
 }
-.form_button{
+.form__button{
 border-radius: 30px;
 background: #9C0332;
 width: 234.063px;
@@ -68,7 +67,7 @@ line-height: normal;
     height: 556px;
     flex-shrink: 0;
 }
-.game_flex{
+.game__flex{
 gap: 32px;
 padding-right: 120px;
 padding-left: 120px;
@@ -76,7 +75,7 @@ display: flex;
 justify-content: space-evenly;
 }
 
-.game_text_1{
+.game__text-1{
 border-radius: 16px;
 margin-top: 128px;
 width: 379px;
@@ -86,7 +85,7 @@ background-repeat: no-repeat;
 background-image: url(./img/game_amg.jpg);
     
 }
-.game_text_2{
+.game__text-2{
     border-radius: 16px;
     margin-top: 128px;
     width: 379px;
@@ -95,7 +94,7 @@ background-image: url(./img/game_amg.jpg);
     background-image: url(./img/game_amg_2.jpg);
 
 }
-.game_text_3{
+.game__text-3{
     border-radius: 16px;
     margin-top: 128px;
     width: 379px;
@@ -103,7 +102,7 @@ background-image: url(./img/game_amg.jpg);
     flex-shrink: 0;
     background-image: url(./img/game_amg_3.jpg);
 }
-.text_game{
+.text__game{
     margin-left: 32px;
     margin-top: 236px;
     display: flex;
@@ -119,4 +118,8 @@ background-image: url(./img/game_amg.jpg);
     line-height: 32px;
     align-items: center;
     flex-direction: column-reverse;
+}
+.body{
+    margin: 0px;
+    padding: 0px;
 }
