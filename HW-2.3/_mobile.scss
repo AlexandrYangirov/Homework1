@@ -1,0 +1,21 @@
+@media (max-width: 375px) 
+{
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+      }
+      .product_content {
+        grid-template-columns: repeat(4, 1fr);}
+    .center {
+        padding-left: calc(50% - 750px);
+        padding-right: calc(50% - 750px);
+      }
+    .top{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 375px;
+        flex-shrink: 0;
+        background-image: url(./img/Rectangle\ 1.jpg);
+        }
+}

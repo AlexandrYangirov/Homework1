@@ -1,0 +1,152 @@
+.top {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 1024px;
+  flex-shrink: 0;
+  background-image: url(./img/Rectangle\ 1.jpg);
+}
+
+.top__content {
+  padding-top: 217px;
+  padding-left: 120px;
+  width: 481px;
+  height: 64px;
+  top: 374.11px;
+  left: 120.22px;
+}
+
+.top__title {
+  display: flex;
+  width: 788.778px;
+  height: 125.007px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.top__text {
+  width: 481px;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+}
+
+.top__span {
+  width: 481px;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.form__button {
+  border-radius: 30px;
+  background: #9C0332;
+  width: 234.063px;
+  height: 48.603px;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.section_game {
+  background: #000915;
+  height: 556px;
+  flex-shrink: 0;
+}
+
+.game__flex {
+  gap: 32px;
+  padding-right: 120px;
+  padding-left: 120px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.game__text-1 {
+  border-radius: 16px;
+  margin-top: 128px;
+  width: 379px;
+  height: 300px;
+  flex-shrink: 0;
+  background-repeat: no-repeat;
+  background-image: url(./img/game_amg.jpg);
+}
+
+.game__text-2 {
+  border-radius: 16px;
+  margin-top: 128px;
+  width: 379px;
+  height: 300px;
+  flex-shrink: 0;
+  background-image: url(./img/game_amg_2.jpg);
+}
+
+.game__text-3 {
+  border-radius: 16px;
+  margin-top: 128px;
+  width: 379px;
+  height: 300px;
+  flex-shrink: 0;
+  background-image: url(./img/game_amg_3.jpg);
+}
+
+.text__game {
+  margin-left: 32px;
+  margin-top: 236px;
+  display: flex;
+  width: 84px;
+  height: 31.639px;
+  justify-content: space-evenly;
+  flex-shrink: 0;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  align-items: center;
+  flex-direction: column-reverse;
+}
+
+.body {
+  margin: 0px;
+  padding: 0px;
+}
+
+@media (max-width: 375px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .product_content {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .center {
+    padding-left: calc(50% - 750px);
+    padding-right: calc(50% - 750px);
+  }
+  .top {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 375px;
+    flex-shrink: 0;
+    background-image: url(./img/Rectangle\ 1.jpg);
+  }
+}/*# sourceMappingURL=hw-2.3style.css.map */
