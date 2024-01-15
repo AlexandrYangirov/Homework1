@@ -6,8 +6,12 @@ let twenty = 20
 alert(twenty);
 
 //Задание 2
+ 2-nd-course-hw-
 const iphonereliaseyear = "год выпуска первого iPhone 2007"
 alert(iphonereliaseyear);
+const IphoneReliaseYear = "год выпуска первого iPhone 2007"
+alert(IphoneReliaseYear);
+
 //Задание 3
 const jsCreator = "создатель языка JavaScript Брендан Эйх"
 alert(jsCreator);
