@@ -30,9 +30,15 @@ while (n >= 50) {
     n /= 2;
     num ++;
 }
+console.log(n);
+console.log(num);
 
 //задание 6
-let firsFriday = 5;
-for (let i = firsFriday; i <=31; i += 7) {
-    console.log('Сегодня пятница, $(i)-е число. Необходимо подготовить отчет.');
+let firsFriday = 1;
+for (let i = firsFriday; i <= 31; i += 7) {
+    console.log('Сегодня пятница, ${i}-е число. Необходимо подготовить отчет.');
+}
+let firsfriday = 1;
+for (let i = firsfriday; i <= 31; i += 7) {
+    console.log('сегодня пятница, ' + i + '-е число. необходимо подготовить отчет.');
 }
