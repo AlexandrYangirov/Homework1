@@ -29,8 +29,8 @@ font-family: Montserrat;
 font-size: 64px;
 font-style: normal;
 font-weight: 700
+ }
 
-            }
 .top__text{
 width: 481px;
 color: #FFF;
@@ -63,13 +63,18 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 animation: shake-bottom 0.8s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+&:hover{
+    border: 3px solid #44d2ff;
+    cursor: url(./img/cursor\ svg.svg), auto;
+}
 }
 .form_button_form {
     animation: shake-bottom 0.8s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
   }
   .form_button:hover {
     color: white;
-    background-color: #73f708;
+    background-color: #EB443F;
+    
   }
   
 .section_game{
@@ -97,6 +102,10 @@ height: 300px;
 flex-shrink: 0;
 background-repeat: no-repeat;
 background-image: url(./img/game_amg.jpg);
+&:hover{
+    border: 3px solid #44d2ff;
+    cursor: url(./img/cursor\ svg.svg), auto;
+}
     
 }
 .game__text-2{
@@ -106,6 +115,10 @@ background-image: url(./img/game_amg.jpg);
     height: 300px;
     flex-shrink: 0;
     background-image: url(./img/game_amg_2.jpg);
+    &:hover{
+        border: 3px solid #44d2ff;
+        cursor: url(./img/cursor\ svg.svg), auto;
+    }
 
 }
 .game__text-3{
@@ -115,6 +128,10 @@ background-image: url(./img/game_amg.jpg);
     height: 300px;
     flex-shrink: 0;
     background-image: url(./img/game_amg_3.jpg);
+    &:hover{
+        border: 3px solid #44d2ff;
+        cursor: url(./img/cursor\ svg.svg), auto;
+    }
 }
 .text__game{
     margin-left: 32px;

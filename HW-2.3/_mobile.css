@@ -15,10 +15,12 @@
     padding-right: calc(50% - 750px);
   }
   .top {
+
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 375px;
+    height: 735px;
     flex-shrink: 0;
     background-image: url(./img/Rectangle\ 1.jpg);
   }
@@ -64,14 +66,16 @@
     margin-left: 70px;
   }
   .form_button_form {
+    margin-right: 70px;
+    margin-left: 70px;
     animation: shake-bottom 0.8s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
   }
   .form_button:hover {
     color: white;
-    background-color: #73f708;
+    background-color: #EB443F;
   }
-
   .game__flex {
+    padding-top: 128px;
     gap: 32px;
     padding-right: 16px;
     padding-left: 16px;
