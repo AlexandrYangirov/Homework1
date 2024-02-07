@@ -1,0 +1,171 @@
+@media (max-width: 375px) {
+    .body {
+      width: 375px;
+      flex-shrink: 0;
+    }
+    .center {
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+    .product_content {
+      grid-template-columns: repeat(4, 1fr);
+    }
+    .center {
+      padding-left: calc(50% - 750px);
+      padding-right: calc(50% - 750px);
+    }
+    .top {
+  
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      width: 375px;
+      height: 735px;
+      flex-shrink: 0;
+      background-image: url(./img/Rectangle\ 1.jpg);
+    }
+    .top__content {
+      padding-right: 16px;
+      padding-left: 16px;
+      display: flex;
+      width: 343px;
+      height: 77.436px;
+      flex-direction: column;
+      justify-content: center;
+      flex-shrink: 0;
+      color: #FFF;
+      text-align: center;
+      font-family: Montserrat;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      align-items: center;
+    }
+    .top__title {
+      display: flex;
+      width: 343px;
+      height: 77.436px;
+      flex-direction: column;
+      justify-content: center;
+      flex-shrink: 0;
+      color: #FFF;
+      text-align: center;
+      font-family: Montserrat;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+    .form__button {
+      width: 234.063px;
+      height: 48.603px;
+      flex-shrink: 0;
+      border-radius: 30px;
+      background: #9C0332;
+      margin-right: 70px;
+      margin-left: 70px;
+    }
+    .form_button_form {
+      margin-right: 70px;
+      margin-left: 70px;
+      animation: shake-bottom 0.8s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+    }
+    .form_button:hover {
+      color: white;
+      background-color: #EB443F;
+    }
+    .game__flex {
+      padding-top: 128px;
+      gap: 32px;
+      padding-right: 16px;
+      padding-left: 16px;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding-bottom: 127px;
+    }
+    .top__text {
+      width: 343px;
+      color: #FFF;
+      text-align: center;
+      font-family: Montserrat;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 22px;
+    }
+    .section_game {
+      height: 1221px;
+      background: #000915;
+    }
+    .game__text-1 {
+      margin-top: 32px;
+      width: 343px;
+      height: 300px;
+      flex-shrink: 0;
+      border-radius: 16px;
+    }
+    .game__text-2 {
+      margin-top: 32px;
+      width: 343px;
+      height: 300px;
+      flex-shrink: 0;
+      border-radius: 16px;
+    }
+    .game__text-3 {
+      margin-top: 32px;
+      width: 343px;
+      height: 300px;
+      flex-shrink: 0;
+      border-radius: 16px;
+    }
+  
+    .seasons_frame {
+      display: flex;
+      width: 375px;
+      height: 653.61px;
+      top: 1956px;
+      flex-wrap: wrap;
+    }
+    .seasons{
+    margin-right: 66px;
+    margin-left: 66px;
+    width: 243px;
+    height: 39px;
+    top: 2007px;
+    left: 66px;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0px;
+    text-align: center;
+    }
+    .sesons_text{
+    width: 343px;
+    height: 217.6px;
+    top: 2007px;
+    left: 16px;
+    border-radius: 30px;
+    }
+    
+    .svg_vector{
+    width: 344px;
+    height: 236px;
+    top: 2288.6px;
+    left: 16px;
+    }
+    .seasons_box{
+        padding-right: 16px;
+        padding-left: 16px;
+        width: 343px;
+        height: 66px;
+        top: 2007px;
+        left: 16px;
+        border-radius: 30px; 
+        color: #9C0332;
+    }
+  }
+  

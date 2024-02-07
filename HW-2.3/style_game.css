@@ -1,4 +1,9 @@
-*.top {
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+.top {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -65,7 +70,6 @@
   animation: shake-bottom 0.8s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
 }
 .form_button:hover {
-  border: 3px solid #44d2ff;
   cursor: url(./img/cursor\ svg.svg), auto;
 }
 
@@ -86,11 +90,8 @@
 .game__flex {
   padding-bottom: 128px;
   gap: 32px;
-  padding-right: 120px;
-  padding-left: 120px;
   display: flex;
   justify-content: space-evenly;
-  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -152,6 +153,44 @@
   flex-direction: column-reverse;
 }
 
+.seasons_frame {
+  display: flex;
+  justify-content: flex-end;
+  background: #000915;
+}
+
+.seasons_box {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  margin-bottom: 282px;
+}
+
+.seasons {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.sesons_text {
+  width: 584px;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+}
+
+.svg_vector {
+  margin-left: 135px;
+  width: 485px;
+  height: 333px;
+  flex-shrink: 0;
+}
+
 .body {
   margin: 0px;
   padding: 0px;
@@ -198,6 +237,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    align-items: center;
   }
   .top__title {
     display: flex;
@@ -278,5 +318,48 @@
     flex-shrink: 0;
     border-radius: 16px;
   }
-}
-/*# sourceMappingURL=style_game.css.map */
+  .seasons_frame {
+    display: flex;
+    width: 375px;
+    height: 653.61px;
+    top: 1956px;
+    flex-wrap: wrap;
+  }
+  .seasons {
+    margin-right: 66px;
+    margin-left: 66px;
+    width: 243px;
+    height: 39px;
+    top: 2007px;
+    left: 66px;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .sesons_text {
+    width: 343px;
+    height: 217.6px;
+    top: 2007px;
+    left: 16px;
+    border-radius: 30px;
+  }
+  .svg_vector {
+    width: 344px;
+    height: 236px;
+    top: 2288.6px;
+    left: 16px;
+  }
+  .seasons_box {
+    padding-right: 16px;
+    padding-left: 16px;
+    width: 343px;
+    height: 66px;
+    top: 2007px;
+    left: 16px;
+    border-radius: 30px;
+    color: #9C0332;
+  }
+}/*# sourceMappingURL=style_game.css.map */
