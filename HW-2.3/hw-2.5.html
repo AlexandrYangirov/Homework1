@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>главная страница</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link rel="stylesheet" href="style_game.css">
+</head>
+
+<body class="body">
+    <section class="top center">
+        <section class="top__wrap">
+            <div class="top__content">
+                <h1 class="top__title">Добро пожаловать на мой сайт !</h1>
+                <p class="top__text">вам предстоит пройти несколько увлекательных игр. если готов нажимай <span
+                        class="top__span">поехали</span> и <span class="top__span">приступай</span></p>
+                <button class="form_button form_button_form">поехали!</button>
+            </div>
+        </section>
+
+
+    </section>
+    <section class="section_game center">
+        <section class="game__flex">
+            <div class="game__text-1">
+                <h1 class="text__game">игра 1</h1>
+            </div>
+            <div class="game__text-2">
+                <h1 class="text__game">игра 2</h1>
+            </div>
+            <div class="game__text-3">
+                <h1 class="text__game">игра 3</h1>
+            </div>
+        </section>
+    </section>
+    <section class="seasons_frame center">
+        <section class="seasons_box">
+            <div class="seasons">Времена года!
+            </div>
+            <h1 class="sesons_text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому
+                времени года он относится</h1>
+            <button onclick="getSeason(prompt('введите число'))" class="form_button form_button_form">Играть!</button>
+        </section>
+        <div class="svg_vector">
+            <img class="img_vector" src="./img/vector_svg.svg">
+        </div>
+    </section>
+    <script src="./js-8.js"></script>
+</body>
+
+</html>

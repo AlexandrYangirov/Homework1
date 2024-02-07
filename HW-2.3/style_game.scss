@@ -1,105 +1,124 @@
-*.top{
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
+.top {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 1024px;
     flex-shrink: 0;
     background-image: url(./img/Rectangle\ 1.jpg);
+}
+
+.top__content {
+    padding-top: 217px;
+    padding-left: 120px;
+    width: 481px;
+    height: 64px;
+    top: 374.11px;
+    left: 120.22px;
+
+}
+
+.top__title {
+    display: flex;
+    width: 788.778px;
+    height: 125.007px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700
+}
+
+.top__text {
+    width: 481px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+}
+
+.top__span {
+    width: 481px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.form_button {
+    border-radius: 30px;
+    background: #9C0332;
+    width: 234.063px;
+    height: 48.603px;
+    flex-shrink: 0;
+    color: hsl(0, 0%, 100%);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    animation: shake-bottom 0.8s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+
+    &:hover {
+
+        cursor: url(./img/cursor\ svg.svg), auto;
     }
- 
-.top__content{
-padding-top: 217px;
-padding-left: 120px;
-width: 481px;   
-height: 64px;
-top: 374.11px;
-left: 120.22px;
-
 }
 
-.top__title{
-display: flex;
-width: 788.778px;
-height: 125.007px;
-flex-direction: column;
-justify-content: center;
-flex-shrink: 0;
-color: #FFF;
-font-family: Montserrat;
-font-size: 64px;
-font-style: normal;
-font-weight: 700
-
-            }
-.top__text{
-width: 481px;
-color: #FFF;
-font-family: Montserrat;
-font-size: 18px;
-font-style: normal;
-font-weight: 300;
-line-height: 32px;
-}
-            
-.top__span{
-width: 481px;
-color: #FFF;
-font-family: Montserrat;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: 32px;
-}
-.form_button{
-border-radius: 30px;
-background: #9C0332;
-width: 234.063px;
-height: 48.603px;
-flex-shrink: 0;
-color: hsl(0, 0%, 100%);
-font-family: Montserrat;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-animation: shake-bottom 0.8s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
-}
 .form_button_form {
     animation: shake-bottom 0.8s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
-  }
-  .form_button:hover {
+}
+
+.form_button:hover {
     color: white;
-    background-color: #73f708;
-  }
-  
-.section_game{
+    background-color: #EB443F;
+
+}
+
+.section_game {
+
     background: #000915;
     flex-shrink: 0;
-   
-}
-.game__flex{
-padding-bottom: 128px;
-gap: 32px;
-padding-right: 120px;
-padding-left: 120px;
-display: flex;
-justify-content: space-evenly;
-flex-wrap: wrap;
-justify-content: center;
 
 }
 
-.game__text-1{
-border-radius: 16px;
-margin-top: 128px;
-width: 379px;
-height: 300px;
-flex-shrink: 0;
-background-repeat: no-repeat;
-background-image: url(./img/game_amg.jpg);
-    
+.game__flex {
+    padding-bottom: 128px;
+    gap: 32px;
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+
 }
-.game__text-2{
+
+.game__text-1 {
+    border-radius: 16px;
+    margin-top: 128px;
+    width: 379px;
+    height: 300px;
+    flex-shrink: 0;
+    background-repeat: no-repeat;
+    background-image: url(./img/game_amg.jpg);
+
+    &:hover {
+        border: 3px solid #44d2ff;
+        cursor: url(./img/cursor\ svg.svg), auto;
+    }
+
+}
+
+.game__text-2 {
     border-radius: 16px;
     margin-top: 128px;
     width: 379px;
@@ -107,16 +126,28 @@ background-image: url(./img/game_amg.jpg);
     flex-shrink: 0;
     background-image: url(./img/game_amg_2.jpg);
 
+    &:hover {
+        border: 3px solid #44d2ff;
+        cursor: url(./img/cursor\ svg.svg), auto;
+    }
+
 }
-.game__text-3{
+
+.game__text-3 {
     border-radius: 16px;
     margin-top: 128px;
     width: 379px;
     height: 300px;
     flex-shrink: 0;
     background-image: url(./img/game_amg_3.jpg);
+
+    &:hover {
+        border: 3px solid #44d2ff;
+        cursor: url(./img/cursor\ svg.svg), auto;
+    }
 }
-.text__game{
+
+.text__game {
     margin-left: 32px;
     margin-top: 236px;
     display: flex;
@@ -133,9 +164,53 @@ background-image: url(./img/game_amg.jpg);
     align-items: center;
     flex-direction: column-reverse;
 }
-.body{
-    margin: 0px;
-    padding: 0px;
+
+.seasons_frame {
+    display: flex;
+    justify-content: flex-end;
+    background: #000915;
+
 }
 
-@import"_mobile";
+.seasons_box {
+    
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    margin-bottom: 282px;
+}
+   
+
+
+.seasons {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.sesons_text {
+    width: 584px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal
+}
+
+.svg_vector {
+    margin-left: 135px;
+    width: 485px;
+    height: 333px;
+    flex-shrink: 0;
+}
+
+.body {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+@import "mobile-style"
