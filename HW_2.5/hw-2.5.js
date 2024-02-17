@@ -66,14 +66,14 @@ function square(number) {
 cubenumber();
  
   //Задание  7
-  const math = require('math');
+  const Math = require('math');
 
   function getArea() {
-      return math.pi * this.radius * this.radius;
+      return Math.pi * this.radius * this.radius;
   }
   
   function getPerimeter() {
-      return 2 * math.pi * this.radius;
+      return 2 * Math.pi * this.radius;
   }
   
   const circle1 = {
