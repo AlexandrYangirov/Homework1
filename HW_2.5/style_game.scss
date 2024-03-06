@@ -165,10 +165,21 @@
     flex-direction: column-reverse;
 }
 
-.seasons_frame {
+.game-frame {
+    gap: 135px;
     display: flex;
     justify-content: flex-end;
     background: #000915;
+    
+
+}
+
+.game-frame-duble {
+    gap: 135px;
+    display: flex;
+    justify-content: flex-end;
+    background: #000915;
+    
 
 }
 
@@ -193,7 +204,6 @@
 }
 
 .sesons_text {
-    width: 584px;
     color: #FFF;
     font-family: Montserrat;
     font-size: 18px;
@@ -201,7 +211,6 @@
 }
 
 .svg_vector {
-    margin-left: 135px;
     width: 485px;
     height: 333px;
     flex-shrink: 0;
