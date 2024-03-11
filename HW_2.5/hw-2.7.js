@@ -26,7 +26,7 @@ function randomOneToTen(){
 //Задание 6
 function randomNumbers(n) {
     let result = [];
-    for (let i = 0; i < 1/2; i++) {
+    for (let i = 0; i < n; i++) {
         result.push(Math.floor(Math.random() * n));
     }
     return result;
@@ -46,15 +46,24 @@ currentDate.setDate(currentDate.getDate() + 73);
 console.log(currentDate);
 
 //Задание 10
-function formatDate(Date){
-    let days = ["Воскресенье", "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота",];
-    let months = ["Января", "Февраля", "Марта", "Апреля", "Мая", "Июня", "Июля", "Августа", "Сентября", "Октября",
-    "Ноября", "Декабря", ];
-    return `Дата: ${Date.getDate()} ${months[Date.getMonths()]} ${date.getFullYear()} - 
-    Это ${days[date.getDay()]}\n Время:${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`;
+function formatDate(date){
+    let days = ["воскресенье", "понедельник", "вторник", "среда", "четверг", "пятница", "суббота"];
+    let months = ["января", "февраля", "марта", "апреля", "мая", "июня", "июля", "августа", "сентября", "октября", "ноября", "декабря"];
+    return дата: ${date.getDate()} ${months[date.getMonth()]} ${date.getFullYear()} - это ${days[date.getDay()]}\nвремя: ${date.getHours()}:${date.getMinutes()}:${date.getSeconds()};
 }
 
 //Задание 11
  let fruits = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин']
- fruits = fruits.sort(Math.random() - 0.5);
- console.log(fruits);
+ fruits = fruits.sort(() => Math.random() - 0.5);
+alert(fruits);
+let firstGues = prompt("Чему равняелся первый элемент массива?");
+let firstGues = prompt("Чему равняелся gjcktlybq элемент массива?");
+if (firstGues === fruits[0] $$ lastGuess === fruits[fruits.length - 1]){
+    alert("Поздравляем! Вы угадали оба  слова.");
+}
+else if (firstGues === fruits[0] || lastGuess === fruits[fruits.length - 1]){
+    alert("Вы были близки к победе!");
+}
+else{
+    alert("Вы не угадали не одного слова.");
+}
