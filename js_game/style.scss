@@ -1,0 +1,331 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+button {
+    cursor: pointer;
+
+  }
+
+
+.top {
+    background: #E1FF8F;
+    background-image: url(img/star1.png), url(img/star2.png), url(img/starbig.svg);
+    background-position: 63px 69px, calc(100% - 344px) calc(100% - 149px), 230% -330px;
+    background-repeat: no-repeat;
+    padding-bottom: 156px;
+
+&__title{
+    color: #202027;
+    font-family: Montserrat;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    max-width: 769px;
+    max-height: 358px;
+    padding-top: 196px;
+}
+
+&__text {
+    color: #202027;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    padding-top: 24px;
+    max-width: 720px;
+}
+    &__text-1{
+    color: #202027;
+    font-family: Montserrat;
+    font-size: 24px;
+    line-height: 32px;
+    padding-top: 24px;
+    font-weight: 600;  
+    }
+&__button{
+    display: block;
+    width: 247px;
+    height: 66px;
+    border: 1px solid rgb(32, 32, 39);
+    border-radius: 60px;
+    background: rgb(32, 32, 39);
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 48px;
+    transition: all 1s;
+    
+    &-text{
+        text-align: center;
+        padding-top: 16px;
+    }
+    &__button:hover {
+        background: #ffffff;
+        color: #000000;
+      }
+}
+}
+.scrollbar {
+    display: flex;
+    align-items: center;
+    gap: 51px;
+    height: 90px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    -webkit-backdrop-filter: blur(50px);
+    backdrop-filter: blur(50px);
+    background: rgb(188, 236, 48);
+    padding: 27px 0;
+    overflow: hidden;
+
+    &-item {
+        display: flex;
+        gap: 51px;
+        flex-shrink: 0;
+      }
+
+&__text {
+    color: rgb(32, 32, 39);
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 110%;
+      text-transform: uppercase;
+   
+}
+}
+
+
+.container {
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background: #202027;
+    background-image: url(img/bigStar\ 1.png);
+    background-repeat: no-repeat;
+    background-position: 1050px 50px ;
+
+    &-2{
+        background-image: none;
+        padding-bottom: 72px;
+    }
+&__title{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 64px;
+    font-weight: 700;
+    padding-top: 72px;
+    margin-bottom: 32px;
+    }
+    
+&__text {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+    max-width: 788px;
+    padding-bottom: 32px;
+}
+}
+.img-games {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 32px;
+    align-items: start;
+    background-image: url(img/Star\ blok.png), url(img/Star\ blok\ 2.png);
+    background-repeat: no-repeat;
+    background-position: 100px 60px ;
+
+&__card {
+    display: flex;
+    flex-direction: column;
+    grid-column: span 4;
+    background-color: #FFFFFF ;
+    border-radius: 30px;
+    }
+    &__card_top {
+        margin-top: 40px;
+    }
+
+&__item {
+    border-radius: 30px;
+    height: 314px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+&__item_1 {
+    background: url(img/card1.svg);
+    background-repeat: no-repeat;
+    
+}
+&__item_2 {
+    background: url(img/card2.svg);
+    background-repeat: no-repeat;
+}
+&__item_3{
+    background: url(img/card3.svg);
+    background-repeat: no-repeat;
+}
+&__item_4{
+    background: url(img/cart4.jpg);
+    background-repeat: no-repeat;
+    
+}
+&__item_5{
+    background: url(img/card5.svg);
+    background-repeat: no-repeat;
+}
+&__item_6{
+    background: url(img/card6.svg);
+    background-repeat: no-repeat;
+}
+&__position{
+    margin: 32px 36px;
+    
+}
+&__number {
+    width: 111px;
+    height: 36px;
+    color: rgb(32, 32, 39);
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 52px;
+    background: rgb(247, 247, 247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+    
+}
+
+&__text {
+    color: rgb(32, 32, 39);
+    font-size: 32px;
+    font-weight: 700;
+
+    &-big{
+        font-size: 48px;
+       }
+}
+    
+
+&__description{
+    font-size: 24px;
+    font-weight: 400;
+    color: #000;
+
+}
+&__section{
+   width: 1200px;
+   height: 500px;
+   margin-bottom: 32px;
+}
+}
+
+
+.game-box {
+    background: #202027;
+    background-image: url(./img/Star6_.png), url(./img/Star7_.png), url(./img/Star8_.png), url(./img/Star10_.png);
+    background-repeat: no-repeat;
+    background-position: 1320px 126px, 1277px 93px, 1319px 3366px, 1249px 3414px;
+    padding-bottom: 144px;
+    
+    &__title {
+      color: rgb(255, 255, 255);
+      font-size: 64px;
+      font-weight: 700;
+      line-height: 78px;
+      padding-top: 46px;
+      padding-bottom: 76px;
+    }
+    &__content {
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+    }
+    &__cart {
+      display: flex;
+      border-radius: 30px;
+      box-shadow: 0px 20px 67px -12px rgba(0, 0, 0, 0.13);
+      background: rgb(255, 255, 255);
+    }
+    &__cart_reverse {
+      display: flex;
+      flex-direction: row-reverse;
+      border-radius: 30px;
+    }
+    &__description {
+      padding: 48px;
+    }
+    &__number {
+      color: rgb(32, 32, 39);
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 59px;
+      padding-bottom: 24px;
+    }
+    &__text {
+      color: rgb(32, 32, 39);
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 32px;
+      padding-bottom: 36px;
+      
+    }
+    &__button {
+      border-radius: 60px;
+      background: rgb(32, 32, 39);
+      text-decoration: none;
+      box-sizing: border-box;
+      padding: 16px 75px;
+      color: rgb(255, 255, 255);
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 141.69%;
+      font-family: inherit;
+      cursor: url("./img/cursor.png"), pointer;
+      transition: all 1s;
+    }
+    &__button:hover {
+      background: #ffffff;
+      color: #000000;
+      border: 1px solid rgb(0, 0, 0);
+    }
+  }
+
+.footer{
+    display: flex;
+    height: 150px;
+    background: #BDED35;
+    justify-content: center;
+    align-items: center;
+
+    &__text{
+    font-size: 24px;
+    font-weight: 600;
+    
+}
+}
+@import 'mobile'
